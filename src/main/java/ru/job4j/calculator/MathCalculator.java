@@ -8,11 +8,11 @@ public class MathCalculator {
     }
 
     public static double subtractDivide(double first, double second) {
-        return subtract(first, second) - divide(first, second);
+        return subtract(first, second) + divide(first, second);
     }
 
     public static double crazyCalc(double first, double second) {
-        return sum(first, second) + multiply(first, second) - subtract(first, second) - divide(first, second);
+        return sum(first, second) + multiply(first, second) + subtract(first, second) + divide(first, second);
     }
 
     public static void main(String[] args) {
