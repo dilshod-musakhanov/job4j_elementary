@@ -22,7 +22,7 @@ public class MatrixSumTest {
                 {1, 2}
         };
         int result = MatrixSum.sum(array);
-        int expected = 10;
+        int expected = 6;
         Assert.assertEquals(expected, result);
     }
 
