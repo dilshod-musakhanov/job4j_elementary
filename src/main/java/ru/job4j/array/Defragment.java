@@ -10,7 +10,6 @@ public class Defragment {
                 array[index] = null;
                 array[order] = word;
                 order += 1;
-
             }
         }
         return array;
