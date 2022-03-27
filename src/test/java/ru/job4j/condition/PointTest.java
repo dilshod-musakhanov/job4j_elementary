@@ -33,7 +33,7 @@ public class PointTest {
     }
 
     @Test
-    public void when321to143then1dot41() {
+    public void when023to035then2dot23() {
         Point a = new Point(0, 2, 3);
         Point b = new Point(0, 3, 5);
         double expected = 2.23;
