@@ -26,6 +26,27 @@ public class MaxTest {
     }
 
     @Test
+    public void whenMax7To5To8Then8() {
+        int first = 7;
+        int second = 5;
+        int third = 8;
+        int expected = 8;
+        int result = Max.max(first, second, third);
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
+    public void whenMax7To5To8To9Then9() {
+        int first = 7;
+        int second = 5;
+        int third = 8;
+        int forth = 9;
+        int expected = 9;
+        int result = Max.max(first, second, third, forth);
+        Assert.assertEquals(expected, result);
+    }
+
+    @Test
     public void whenEqual3to3Then3() {
         int first = 3;
         int second = 3;

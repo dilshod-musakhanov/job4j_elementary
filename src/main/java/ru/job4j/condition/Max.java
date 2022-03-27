@@ -9,6 +9,10 @@ public class Max {
         return max(first, max(second, third));
     }
 
+    public static int max(int first, int second, int third, int forth) {
+        return max(first, max(second, third, forth));
+    }
+
     public static int maxSecondNum(int first, int second) {
         return first < second ? second : first;
     }
@@ -22,10 +26,12 @@ public class Max {
         int resSecNum = Max.maxSecondNum(8, 9);
         int resEqualNum = Max.equalNum(3, 3);
         int resMaxMax = Max.max(7, 5, 8);
+        int resMaxFour = Max.max(7, 5, 8, 9);
         System.out.println(resMax);
         System.out.println(resSecNum);
         System.out.println(resEqualNum);
         System.out.println(resMaxMax);
+        System.out.println(resMaxFour);
     }
 
 }
